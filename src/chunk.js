@@ -28,4 +28,4 @@ function chunk(array, size = 1) {
 }
 console.log(chunk(['a', 'b', 'c', 'd'], 2))
 console.log(chunk(['a', 'b', 'c', 'd'], 3))
-// export default chunk;
+export default chunk;

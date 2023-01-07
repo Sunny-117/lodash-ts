@@ -27,3 +27,13 @@ Lodash 包含数组的排序算法和过滤、集合的算法、数学函数、�
 ## Internal
 
 ## Other
+
+
+# 参考链接
+
+https://lxchuan12.gitee.io/lodash/
+https://juejin.cn/post/6957682023540457480
+https://underglaze-blue.github.io/lodash-analysis/
+https://lodash.lcs.show/
+https://github.com/HeftyKoo/pocket-lodash
+https://cloud.tencent.com/developer/article/1507017

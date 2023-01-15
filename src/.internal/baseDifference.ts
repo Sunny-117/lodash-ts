@@ -12,7 +12,7 @@ import arrayIncludes from '../.internal/arrayIncludes'
  * @returns {Array} Returns the new array of filtered values.
  */
 
-function baseDifference(array, values, iteratee, comparator) {
+function baseDifference(array, values, iteratee?, comparator?) {
 
     let includes: any = arrayIncludes
     let isCommon = true

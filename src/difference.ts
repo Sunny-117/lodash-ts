@@ -1,4 +1,6 @@
 import baseDifference from './.internal/baseDifference'
+import isArrayLikeObject from './isArrayLikeObject'
+import baseFlatten from './.internal/baseFlatten'
 
 /**
  * Creates an array of `array` values not included in the other given arrays
@@ -20,6 +22,7 @@ import baseDifference from './.internal/baseDifference'
  * // => [1]
  */
 export function difference(array, ...values) {
-    // baseDifference(array, values);
-    return [1]
+    return isArrayLikeObject(array)
+        ? baseDifference(array, baseFlatten(values, 1, isArrayLikeObject, true))
+        : []
 }

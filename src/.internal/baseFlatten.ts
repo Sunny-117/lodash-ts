@@ -1,4 +1,4 @@
-import isFlattenable from './isFlattenable.js'
+import isFlattenable from './isFlattenable'
 
 /**
  * The base implementation of `flatten` with support for restricting flattening.
@@ -11,7 +11,7 @@ import isFlattenable from './isFlattenable.js'
  * @param {Array} [result=[]] The initial result value.
  * @returns {Array} Returns the new flattened array.
  */
-function baseFlatten(array, depth, predicate, isStrict, result) {
+function baseFlatten(array, depth, predicate, isStrict?, result?) {
     predicate || (predicate = isFlattenable)
     result || (result = [])
 

@@ -14,10 +14,3 @@ Lodash 包含数组的排序算法和过滤、集合的算法、数学函数、�
 
 **Other** 是在分析 lodash 源码过程中，发现的一些个人觉得值得记录的东西，如 [为什么0.1+0.2!==0.3]() 、 [拷贝对象时需要考虑什么]() 、 [有意思的位运算]() 等等，以及记录了 [lodash 源码里面一些不合理以及有错误的地方]()
 
-
-https://lxchuan12.gitee.io/lodash/
-https://juejin.cn/post/6957682023540457480
-https://underglaze-blue.github.io/lodash-analysis/
-https://lodash.lcs.show/
-https://github.com/HeftyKoo/pocket-lodash
-https://cloud.tencent.com/developer/article/1507017

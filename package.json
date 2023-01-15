@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/lodash-ts.cjs.js",
   "module": "lib/lodash-ts.esm.js",
+  "example": "example/lib/lodash-ts.esm.js",
   "scripts": {
     "build": "rollup -c rollup.config.js --bundleConfigAsCjs --watch"
   },

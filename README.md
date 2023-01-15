@@ -1,4 +1,6 @@
-# 1odash
+# lodash-ts
+
+本仓库只实现 lodash 中的某些漂亮的函数即可，比如 memorize, difference,没必要完全实现,封装到单独的包内，ts实现
 
 Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。
 

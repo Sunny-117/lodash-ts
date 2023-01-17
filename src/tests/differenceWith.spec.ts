@@ -8,14 +8,13 @@ import differenceWith from "../differenceWith"
  * @returns 
  */
 function isEqual(a, b) {
-    return true
+    return JSON.stringify(a) === JSON.stringify(b)
 }
 
 describe('differenceWith', () => {
-    it.skip('happy path', () => {
+    it('happy path', () => {
         const objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }]
         const res = differenceWith(objects, [{ 'x': 1, 'y': 2 }], isEqual)
-        console.log(res, '================================================================')
         expect(res).toEqual([{ 'x': 2, 'y': 1 }])
     })
 })

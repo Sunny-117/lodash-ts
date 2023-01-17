@@ -1,4 +1,5 @@
 import at from "./at"
+import create from "./create"
 import difference from "./difference"
 import differenceBy from './differenceBy'
 import differenceWith from "./differenceWith"
@@ -73,5 +74,6 @@ export {
     zipWith,
     // Object
     get,
-    at
+    at,
+    create
 }

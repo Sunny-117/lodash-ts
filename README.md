@@ -88,6 +88,17 @@
 
 ## Object
 
+✅get,
+
+✅at,
+
+✅create,
+
+✅defaults,
+
+✅defaultsDeep,
+
+TODO：https://www.lodashjs.com/docs/lodash.toPairs
 
 # Git commit specification reference
 - feat add new functions

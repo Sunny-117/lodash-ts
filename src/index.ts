@@ -24,7 +24,14 @@ import takeRightWhile from "./takeRightWhile"
 import takeWhile from "./takeWhile"
 import unzip from "./unzip"
 import unzipWith from "./unzipWith"
+import without from "./without"
+import xor from "./xor"
+import xorBy from "./xorBy"
+import xorWith from "./xorWith"
 import zip from "./zip"
+import zipObject from "./zipObject"
+import zipObjectDeep from "./zipObjectDeep"
+import zipWith from "./zipWith"
 
 export {
     difference,
@@ -53,5 +60,12 @@ export {
     takeWhile,
     unzip,
     unzipWith,
-    zip
+    zip,
+    without,
+    xor,
+    xorBy,
+    xorWith,
+    zipObject,
+    zipObjectDeep,
+    zipWith,
 }

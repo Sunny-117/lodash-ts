@@ -1,6 +1,8 @@
 # lodash-ts
 
-Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。
+🎉🎉🎉  lodash-ts 是一个一致性、模块化、高性能的 JavaScript 实用工具库。
+
+完成 lodash 的 typescript 版本，只实现 lodash 中漂亮的函数
 
 # Feature
 

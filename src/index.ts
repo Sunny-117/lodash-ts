@@ -22,6 +22,9 @@ import take from "./take"
 import takeRight from "./takeRight"
 import takeRightWhile from "./takeRightWhile"
 import takeWhile from "./takeWhile"
+import unzip from "./unzip"
+import unzipWith from "./unzipWith"
+import zip from "./zip"
 
 export {
     difference,
@@ -48,4 +51,7 @@ export {
     takeRight,
     takeRightWhile,
     takeWhile,
+    unzip,
+    unzipWith,
+    zip
 }

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import MapCache from './MapCache'
 
 /** Used to stand-in for `undefined` hash values. */

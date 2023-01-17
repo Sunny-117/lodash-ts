@@ -13,7 +13,7 @@ class SetCache {
    * @constructor
    * @param {Array} [values] The values to cache.
    */
-  constructor(values) {
+  constructor(values?) {
     let index = -1
     const length = values == null ? 0 : values.length
 

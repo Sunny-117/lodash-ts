@@ -34,6 +34,7 @@ import zipObjectDeep from "./zipObjectDeep"
 import zipWith from "./zipWith"
 
 export {
+    // array
     difference,
     differenceBy,
     differenceWith,
@@ -68,4 +69,5 @@ export {
     zipObject,
     zipObjectDeep,
     zipWith,
+    // Object
 }

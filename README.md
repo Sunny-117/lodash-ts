@@ -11,6 +11,48 @@ Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库�
 - unplugin-auto-import: Auto import APIs on-demand for Vite, Webpack and Rollup
 
 
+# Finished
+
+## Array
+
+✅ difference
+✅ differenceBy
+✅ differenceWith
+✅ drop
+✅ dropRight
+✅ dropWhile
+✅ dropRightWhile
+✅ flatten
+✅ flattenDeep
+✅ flattenDepth
+✅ intersection
+✅ intersectionBy
+✅ intersectionWith
+✅ isArguments
+✅ isArrayLike
+✅ isArrayLikeObject
+✅ isLength
+✅ isObjectLike
+✅ last
+✅ slice
+✅ take
+✅ takeRight
+✅ takeRightWhile
+✅ takeWhile
+✅ unzip
+✅ unzipWith
+✅ zip
+✅ without
+✅ xor
+✅ xorBy
+✅ xorWith
+✅ zipObject
+✅ zipObjectDeep
+✅ zipWith
+
+## Object
+
+
 # Git commit specification reference
 - feat add new functions
 - fix Fix issues/bugs

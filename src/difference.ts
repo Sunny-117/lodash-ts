@@ -21,8 +21,9 @@ import baseFlatten from './.internal/baseFlatten'
  * difference([2, 1], [2, 3])
  * // => [1]
  */
-export function difference(array, ...values) {
+function difference(array, ...values) {
     return isArrayLikeObject(array)
         ? baseDifference(array, baseFlatten(values, 1, isArrayLikeObject, true))
         : []
 }
+export default difference

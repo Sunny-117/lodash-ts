@@ -1,5 +1,6 @@
 import at from "./at"
 import create from "./create"
+import defaults from "./defaults"
 import difference from "./difference"
 import differenceBy from './differenceBy'
 import differenceWith from "./differenceWith"
@@ -75,5 +76,6 @@ export {
     // Object
     get,
     at,
-    create
+    create,
+    defaults
 }

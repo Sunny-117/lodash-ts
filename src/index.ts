@@ -8,6 +8,7 @@ import dropWhile from "./dropWhile"
 import flatten from "./flatten"
 import flattenDeep from "./flattenDeep"
 import flattenDepth from "./flattenDepth"
+import get from "./get"
 import intersection from "./intersection"
 import intersectionBy from "./intersectionBy"
 import intersectionWith from "./intersectionWith"
@@ -70,4 +71,5 @@ export {
     zipObjectDeep,
     zipWith,
     // Object
+    get,
 }

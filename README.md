@@ -1,17 +1,16 @@
 # lodash-ts
 
-🎉🎉🎉  lodash-ts 是一个一致性、模块化、高性能的 JavaScript 实用工具库。
+lodash-ts is a consistent, modular, and high-performance JavaScript library.
 
-完成 lodash 的 typescript 版本，只实现 lodash 中漂亮的函数
+Implement the typescript version of lodash.
 
 # Feature
 
-- Vite：Really fast
-- TypeScript：JavaScript With Syntax For Types
-- PNPM：Faster, disk space saving package management tool
-- Vitest: A Vite-native unit test framework. It's fast!
-- unplugin-auto-import: Auto import APIs on-demand for Vite, Webpack and Rollup
-
+- 🎉 Build by Vite：Really fast
+- 📝 TypeScript：JavaScript With Syntax For Types
+- ⚡️ PNPM：Faster, disk space saving package management tool
+- 🔥 Vitest: A Vite-native unit test framework. It's fast!
+- 🔨 unplugin-auto-import: Auto import APIs on-demand for Vite, Webpack and Rollup
 
 # Finished
 
@@ -85,7 +84,6 @@
 
 ✅ zipWith
 
-
 ## Object
 
 ✅get,
@@ -101,6 +99,7 @@
 TODO：https://www.lodashjs.com/docs/lodash.toPairs
 
 # Git commit specification reference
+
 - feat add new functions
 - fix Fix issues/bugs
 - perf Optimize performance
@@ -114,4 +113,3 @@ TODO：https://www.lodashjs.com/docs/lodash.toPairs
 - ci CICD
 - types Type definition
 - wip In development
-
